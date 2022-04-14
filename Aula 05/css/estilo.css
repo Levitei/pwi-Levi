@@ -1,0 +1,25 @@
+/* link NÃO VISITADO */
+a:link {
+    color: rgb(0, 255, 179);
+    text-decoration: none;
+  }
+  
+  /* link já visitado */
+  a:visited {
+    color: rgb(0, 128, 111);
+    
+  }
+  
+  /* quando passo por cima do link */
+  a:hover {
+    color: rgb(105, 220, 255);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  /* quando seleciono/clico e seguro o link */
+  a:active {
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+  }
+ 
